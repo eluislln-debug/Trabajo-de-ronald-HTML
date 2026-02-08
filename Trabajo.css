@@ -34,7 +34,7 @@ body {
 }
 
 .header-content {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -60,6 +60,36 @@ body {
     background-color: var(--accent-color);
     margin: 3rem auto 0;
 }
+
+/* barra de navegación */
+nav {
+    background: #1c2541;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 12px;
+}
+
+/* estilo tipo cuadros*/
+nav a {
+    background: #5bc0be;
+    color: #0b132b;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* efecto hover */
+nav a:hover {
+    background: white;
+}
+
+
+
+
+
 
 /* GRID PRINCIPAL */
 .grid-container {
@@ -183,12 +213,12 @@ body {
 }
 
 .liga-fr {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color:  #1f5ed9;
+    color: rgb(254, 254, 254);
 }
 
 .liga-fr h2 {
-    color: yellow;
+    color: rgb(0, 0, 0);
 }
 
 .liga {
