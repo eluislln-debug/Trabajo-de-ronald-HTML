@@ -241,3 +241,88 @@ nav a:hover {
     position: relative;
     z-index: 2;
 }
+
+/* Liga Española */
+.liga-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* HERO LALIGA */
+
+.liga-hero {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(to right, #ffffff, #d7d7d7);
+    color: black;
+}
+
+.liga-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+}
+
+.liga-hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* GRID EQUIPOS */
+
+.equipos-container {
+    padding: 4rem 2rem;
+}
+
+.equipos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.equipo {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.equipo h2 {
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.equipo p {
+    color: #333;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.liga-logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.liga-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Escudos */
+.equipo img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.equipo:hover img {
+    transform: scale(1.1);
+}
