@@ -186,8 +186,9 @@ nav a:hover {
 }
 
 .liga-en {
-    background-color: #b7e4f8;
+    background: linear-gradient(to right, #b88ce0, #d7d7d7);
     color: black;
+    background-color: #b88ce0;
 }
 
 .liga-en h2 {
@@ -196,6 +197,7 @@ nav a:hover {
 
 .liga-it {
     background-color: #1f4fd8;
+    background: linear-gradient(to right, #1f4fd8, #909090b8);
     color: white;
 }
 
@@ -204,7 +206,7 @@ nav a:hover {
 }
 
 .liga-de {
-    background-color: red;
+    background: linear-gradient(to right, #a52a2a, #909090b8);
     color: white;
 }
 
@@ -213,7 +215,7 @@ nav a:hover {
 }
 
 .liga-fr {
-    background-color:  #1f5ed9;
+    background: linear-gradient(to right, #1f5ed9, #909090);
     color: rgb(254, 254, 254);
 }
 
