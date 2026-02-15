@@ -257,6 +257,30 @@ nav a:hover {
 }
 /* Liga Inglesa */
 
+/* Liga Italiana */
+.seriea-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+/* Liga Italiana */
+
+/* Liga francia */
+.ligaone-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+/* Liga francia */
+
+/*liga alemana*/
+.liga-alemana-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
 
 /* HERO LALIGA */
 
@@ -298,6 +322,61 @@ nav a:hover {
 }
 /*premier*/
 
+/*serie a*/
+.seriea-principal {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(to right, #172de1, #372fdd70);
+    color: rgb(0, 0, 0);
+}
+
+.seriea-principal h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+}
+
+.seriea-principal p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+/*serie a*/
+
+/*liga francia*/
+.ligaone-principal {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(to right, #565353, #1f5ed9b8);
+    color: rgb(230, 230, 230);
+}
+
+.ligaone-principal h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.ligaone-principal p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+/*liga francia*/
+
+/*liga alemana*/
+.liga-alemana-principal {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: linear-gradient(to right, #a52a2a, #909090b8);
+    color: rgb(230, 230, 230);
+}
+
+.liga-alemana-principal h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.liga-alemana-principal p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
 
 
 
@@ -418,8 +497,8 @@ nav a:hover {
 }
 
 .equipo-premier img {
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 100px;
     object-fit: contain;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
@@ -429,4 +508,224 @@ nav a:hover {
     transform: scale(1.1);
 }
 
+/*serie a*/
+.seriea-body {
+    font-family: 'Inter', sans-serif;
+    background-color: #a5d9fd;
+    color: var(--light-color);
+}
 
+.equipo-seriea-container {
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.equipos-seriea-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    background-color: #097cb1b8;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+   
+}
+
+.equipo-italia {
+    background-color: rgba(145, 158, 193, 0.558);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipo-italia:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.equipo-italia h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-bottom: 1rem;
+}
+
+.equipo-italia p {
+    color: #000000;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.seriea-logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+      
+}
+
+.seriea-logo:hover {
+    transform: scale(1.1);
+}
+
+.equipo-seriea img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.equipo-seriea:hover img {
+    transform: scale(1.1);
+}
+/*serie a*/
+
+
+/*liga francia*/
+.ligaone-body {
+    font-family: 'Inter', sans-serif;
+    background-color: #788bb0;
+    color: var(--light-color);
+}
+
+.equipo-francia-container {
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.equipos-francia-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    background-color: #687ca4b8;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+   
+}
+
+.equipo-francia {
+    background-color: rgba(41, 87, 213, 0.558);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.equipo-francia:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.equipo-francia h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-bottom: 1rem;
+}
+
+
+.equipo-francia p {
+    color: #000000;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.ligaone-logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+      
+}
+
+.ligaone-logo:hover {
+    transform: scale(1.1);
+}
+
+
+.equipo-francia img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.equipo-francia:hover img {
+    transform: scale(1.1);
+}
+
+/*liga francia*/
+
+/*liga alemana*/
+.liga-alemana-body {
+    font-family: 'Inter', sans-serif;
+    background-color: #a52a2a;
+    color: var(--light-color);
+}
+
+.equipos-alemanoa-container {
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.equipos-alemania-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+      background: linear-gradient(to right, #810707, #e5e6e7);
+    margin: 0 auto;
+    padding: 4rem 2rem;
+   
+}
+
+.equipo-alemania {
+    background-color: rgba(108, 84, 84, 0.558);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipo-alemania:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+
+.equipo-alemania h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-bottom: 1rem;
+}
+
+
+.equipo-alemania p {
+    color: #000000;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+
+
+.liga-alemana-logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+      
+}
+
+.liga-alemana-logo:hover {
+    transform: scale(1.1);
+}
+
+.equipo-alemania img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.equipo-alemania:hover img {
+    transform: scale(1.1);
+}
+/*liga alemana*/
