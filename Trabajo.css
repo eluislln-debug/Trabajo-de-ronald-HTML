@@ -177,6 +177,7 @@ nav a:hover {
 }
 
 .liga-es {
+    background: linear-gradient(to right, #e58989, #d7d7d7);
     background-color: white;
     color: black;
 }
@@ -388,6 +389,11 @@ nav a:hover {
 
 .equipos-container {
     padding: 4rem 2rem;
+    background: linear-gradient(
+    to bottom,
+    #f09090,
+    #ff9999
+);
 }
 
 .equipos-grid {
