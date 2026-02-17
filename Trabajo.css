@@ -737,3 +737,143 @@ nav a:hover {
     transform: scale(1.1);
 }
 /*liga alemana*/
+
+/* Barcelona */
+.equipo-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #0b1c3d, #1c2f6b);
+}
+
+/* HERO */
+.team-hero {
+    background: linear-gradient(135deg, #a50044, #004d98);
+    color: white;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.team-logo {
+    width: 120px;
+    margin-bottom: 1rem;
+}
+
+.team-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5rem;
+}
+
+.team-slogan {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+/* BLOQUES INTERCALADOS */
+.team-content {
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-image img,
+.info-image iframe {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+.info-card {
+    flex: 1;
+    background: linear-gradient(135deg, #A50044, #004D98);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.info-card h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 1rem;
+}
+
+/* TITULOS */
+.titulos-section {
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.titulos-title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 3rem 0 2rem 0;
+    color: #A50044; /* granate Barça */
+    position: relative;
+}
+
+
+.titulos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.trofeo-card {
+    background: linear-gradient(135deg, #A50044, #004D98);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.trofeo-card:hover {
+    transform: translateY(-8px);
+}
+
+.trofeo-card img {
+    width: 60px;
+    margin-bottom: 1rem;
+}
+
+.volver-container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #a50044, #004d98);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    transform: translateX(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+

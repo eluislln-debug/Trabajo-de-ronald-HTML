@@ -1,0 +1,128 @@
+/* HERO */
+.team-hero {
+    background: linear-gradient(135deg, #ff0901, #406eec);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.team-logo {
+    width: 120px;
+}
+
+.team-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+}
+
+.team-slogan {
+    font-style: italic;
+}
+
+/* BOTÓN */
+.btn-volver {
+    display: inline-block;
+    padding: 10px 22px;
+    background: white;
+    color: #E10600;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #E10600;
+    transition: 0.3s;
+}
+
+.btn-volver:hover {
+    background: #E10600;
+    color: white;
+}
+
+/* TARJETAS */
+.info-card {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 6px solid #E10600;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    color: #000;
+}
+
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card,
+.info-image {
+    flex: 1;
+}
+
+.info-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.trofeo-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #1E3A8A;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* EFECTO HOVER */
+.trofeo-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+}
+
+
+.trofeo-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+/* FONDO */
+body {
+    background: linear-gradient(to bottom, #ffffff, #e9edf5);
+}
+
+.volver-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto;
+}
+
+.equipo-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.titulos-title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 3rem 0 2rem 0;
+    color: #E10600; /* rojo Atlético */
+}

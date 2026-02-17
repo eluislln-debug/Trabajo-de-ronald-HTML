@@ -1,0 +1,146 @@
+/* Real madrid */
+/* HERO REAL MADRID */
+.team-hero {
+    background: linear-gradient(135deg, #ffffff, #f2f2f2);
+    color: #1a1a1a;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #d4af37; /* dorado */
+}
+
+.team-logo {
+    width: 120px;
+}
+
+.team-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan {
+    font-style: italic;
+    color: #555;
+}
+
+.btn-volver {
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #ffffff, #d4af37);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #d4af37;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    background: #d4af37;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.info-card {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 5px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.titulos-section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulos-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+}
+
+.trofeo-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #d4af37;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.trofeo-card:hover {
+    transform: translateY(-8px);
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+}
+
+.info-card {
+    color: #000;
+}
+
+.info-card h2,
+.info-card p {
+    color: #000;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card,
+.info-image {
+    flex: 1;
+}
+
+.info-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    display: block;
+}
+
+.titulos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.trofeo-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #d4af37;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.trofeo-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.equipo-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.volver-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto; 
+}
