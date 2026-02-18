@@ -1,0 +1,143 @@
+/* =========================
+   MANCHESTER UNITED CSS
+   Basado en la lógica del Real Madrid
+========================= */
+
+/* HERO */
+.united-hero {
+    background: linear-gradient(135deg, #c58989, #c80000);
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #b70000;
+}
+
+.team-united-logo {
+    width: 140px;
+}
+
+.united-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-united {
+    font-style: italic;
+    color: #fffafa;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver {
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #ffffff, #b70000);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #b70000;
+    transition: all 0.3s ease;
+}
+
+.btn-volver:hover {
+    background: #b70000;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.volver-united-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+    background: linear-gradient(to bottom, #824444, #980000);
+}
+
+/* FILAS DE INFORMACIÓN */
+.info-united-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card-united,
+.info-image-united {
+    flex: 1;
+}
+
+/* TARJETAS */
+.info-card-united {
+    background: rgb(131, 70, 70);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 5px solid #b70000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    color: #000000;
+}
+
+.info-card-united h2,
+.info-card-united p {
+    color: #fcf3f3;
+}
+
+/* IMÁGENES */
+.info-image-united img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    display: block;
+}
+
+/* SECCIÓN TÍTULOS */
+.titulos-section-united {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulos-title-united {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #aea7a7;
+    margin-bottom: 2rem;
+}
+
+/* GRID TROFEOS */
+.titulos-united-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+/* TARJETAS TROFEOS */
+.trofeo-united-card {
+    background: rgb(216, 120, 120);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #b70000;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.trofeo-united-card:hover {
+    transform: translateY(-8px);
+    background: #b70000;
+    color: white;
+}
+
+.trofeo-united-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
