@@ -1,0 +1,204 @@
+body {
+    background: #344c92;
+    font-family: Arial, sans-serif;
+}
+
+.titulo-rivalidades {
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'Oswald', sans-serif;
+    margin: 3rem 0;
+    color: white;
+    background: linear-gradient(90deg, #2d3e74, #1c1b88);
+    padding: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.rivalidades-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.rivalidad-card {
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+
+.rivalidad-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 25px 55px rgba(0,0,0,0.35);
+}
+
+
+.equipos {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+
+.equipo {
+    text-align: center;
+}
+
+.equipo img {
+    width: 100px;
+}
+
+.vs {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+.descripcion {
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.barca h3 { color: #d8d8d8; }
+.madrid h3 { color: #FEBE10; }
+
+.milan h3 { color: #000000; }
+.inter h3 { color: #000000; }
+
+.united h3 { color: #000000; }
+.city h3 { color: #000000; }
+
+.liverpool h3 { color: #000000; }
+
+.arsenal h3 { color: #000000; }
+.chelsea h3 { color: #000000; }
+
+.atleti h3 { color: #000000; }
+
+.bayern h3 { color: #000000; }
+.dortmund h3 { color: #000000; }
+
+.psg h3 { color: #000000; }
+.marsella h3 { color: #000000; }
+
+.barca-madrid {
+    background: linear-gradient(
+        135deg,
+        #A50044 0%,       /* granate Barça */
+        #004D98 40%,      /* azul Barça */
+        #ffffff 60%,      /* blanco Madrid */
+        #e5e5e5 100%
+    );
+    color: black;
+}
+
+.united-city {
+    background: linear-gradient(
+        135deg,
+        #DA291C 0%,
+        #DA291C 40%,
+        #6CABDD 60%,
+        #6CABDD 100%
+    );
+    color: white;
+}
+
+.liverpool-united {
+    background: linear-gradient(
+        135deg,
+        #C8102E 0%,
+        #C8102E 40%,
+        #DA291C 60%,
+        #DA291C 100%
+    );
+    color: white;
+}
+
+.arsenal-chelsea {
+    background: linear-gradient(
+        135deg,
+        #EF0107 0%,
+        #EF0107 40%,
+        #034694 60%,
+        #034694 100%
+    );
+    color: white;
+}
+
+.madrid-atleti {
+    background: linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #ffffff 40%,
+        #ff0800 60%,
+        #fe1717 100%
+    );
+    color: black;
+}
+
+.bayern-dortmund {
+    background: linear-gradient(
+        135deg,
+        #DC052D 0%,
+        #DC052D 40%,
+        #FDE100 60%,
+        #FDE100 100%
+    );
+    color: black;
+}
+
+.psg-marsella {
+    background: linear-gradient(
+        135deg,
+        #004170 0%,
+        #004170 40%,
+        #d3d3d3 60%,
+        #ffffff 100%
+    );
+    color: rgb(31, 31, 31);
+}
+
+.milan-inter {
+    background: linear-gradient(
+        135deg,
+        #AC0000 0%,
+        #AC0000 40%,
+        #0033A0 60%,
+        #0033A0 100%
+    );
+    color: white;
+}
+
+/* barra de navegación */
+nav {
+    background: #1c2541;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 12px;
+    margin-bottom: 3rem;
+
+}
+
+/* estilo tipo cuadros*/
+nav a {
+    background: #5bc0be;
+    color: #0b132b;
+    padding: 8px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+/* efecto hover */
+nav a:hover {
+    background: white;
+}
