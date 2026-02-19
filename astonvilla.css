@@ -1,0 +1,139 @@
+
+
+/* HERO */
+.villa-hero {
+    background: linear-gradient(135deg, #630a64, #f2f2f2);
+    color: #1a1a1a;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #670E36; /* vino Aston Villa */
+}
+
+.team-villa-logo {
+    width: 140px;
+}
+
+.villa-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-villa {
+    font-style: italic;
+    color: #555;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-villa {
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #ffffff, #670E36);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #670E36;
+    transition: all 0.3s ease;
+}
+
+.btn-volver-villa:hover {
+    background: #670E36;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.volver-villa-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto;
+}
+
+
+/* FILAS DE INFORMACIÓN */
+.info-villa-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card-villa,
+.info-image-villa {
+    flex: 1;
+}
+
+/* TARJETAS */
+.info-card-villa {
+    background: rgba(190, 141, 197, 0.702);
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 5px solid #831d4b;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    color: #000;
+}
+
+.info-card-villa h2,
+.info-card-villa p {
+    color: #000;
+}
+
+/* IMÁGENES */
+.info-image-villa img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    display: block;
+}
+
+/* SECCIÓN TÍTULOS */
+.titulos-section-villa {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulos-title-villa {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+}
+
+/* GRID TROFEOS */
+.titulos-villa-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+/* TARJETAS TROFEOS */
+.trofeo-villa-card {
+    background: rgba(190, 141, 197, 0.702);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #95BFE5; /* azul claro Villa */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.trofeo-villa-card:hover {
+    transform: translateY(-8px);
+    background: #670E36;
+    color: white;
+}
+
+.trofeo-villa-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.body{
+    background: linear-gradient(to bottom, #670E36, #ffffff);
+}

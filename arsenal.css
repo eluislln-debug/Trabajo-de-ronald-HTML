@@ -1,0 +1,123 @@
+
+/* HERO */
+.arsenal-hero {
+    background: linear-gradient(135deg, #EF0107, #9C0000);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #D4AF37;
+}
+
+.team-arsenal-logo {
+    width: 140px;
+}
+
+.arsenal-hero h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-arsenal {
+    font-style: italic;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-arsenal {
+    display: inline-block;
+    padding: 10px 22px;
+    background: white;
+    color: #EF0107;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #EF0107;
+    transition: 0.3s;
+}
+
+.btn-volver-arsenal:hover {
+    background: #EF0107;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.volver-arsenal-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+    background: linear-gradient(to bottom, #ffffff, #ff0000);
+}
+
+/* FILAS */
+.info-arsenal-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card-arsenal,
+.info-image-arsenal {
+    flex: 1;
+}
+
+.info-card-arsenal {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 5px solid #EF0107;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.info-image-arsenal img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulos-section-arsenal {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulos-title-arsenal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.titulos-arsenal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.trofeo-arsenal-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #EF0107;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.trofeo-arsenal-card:hover {
+    background: #EF0107;
+    color: white;
+    transform: translateY(-8px);
+}
+
+.trofeo-arsenal-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}

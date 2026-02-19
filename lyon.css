@@ -1,0 +1,136 @@
+/* LYON */
+
+.hero-lyon {
+	background: linear-gradient(135deg, #1e3a8a, #d40000);
+	color: #ffffff;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #d40000;
+}
+
+.team-lyon-logo {
+	width: 120px;
+}
+
+.hero-lyon h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-lyon {
+	font-style: italic;
+	color: #fce7f3;
+}
+
+.btn-volver-lyon {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #ffffff, #d40000);
+	color: #1a1a1a;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #d40000;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-lyon:hover {
+	background: #d40000;
+	color: white;
+	transform: translateX(-5px);
+}
+
+.volver-lyon-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+body {
+	background: linear-gradient(to bottom, #f8fafc, #e6eefc);
+}
+
+.info-lyon-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-lyon,
+.info-image-lyon {
+	flex: 1;
+}
+
+.info-card-lyon {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #d40000;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-lyon img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+.titulos-section-lyon {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-lyon {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-lyon-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-lyon-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #d40000;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-lyon-card:hover {
+	background: #d40000;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-lyon-card img {
+	width: 80px;
+	margin-bottom: 1rem;
+}
+
+.titulos-lyon-grid h3 {
+	color: #d40000;
+}
+
+.trofeo-lyon-card p {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.footer-lyon {
+	background: #f1f5ff;
+	padding: 20px;
+	text-align: center;
+}

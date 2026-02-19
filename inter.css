@@ -1,0 +1,137 @@
+/* INTER - estilos con prefijo inter- */
+
+/* HERO */
+.hero-inter {
+	background: linear-gradient(135deg, #00529F, #111111);
+	color: #ffffff;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #003366;
+}
+
+.team-inter-logo {
+	width: 120px;
+}
+
+.hero-inter h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-inter {
+	font-style: italic;
+	color: #dbeafe;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-inter {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #ffffff, #00529F);
+	color: #111111;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #00529F;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-inter:hover {
+	background: #00529F;
+	color: white;
+	transform: translateX(-5px);
+}
+
+.volver-inter-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+	background: linear-gradient(to bottom, #f4f8ff, #e3ecff);
+}
+
+/* FILAS */
+.info-inter-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-inter,
+.info-image-inter {
+	flex: 1;
+}
+
+.info-card-inter {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #00529F;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-inter img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulos-section-inter {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-inter {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-inter-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-inter-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #00529F;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-inter-card:hover {
+	background: #00529F;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-inter-card p {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+/* IMÁGENES TROFEOS */
+.trofeo-inter-card img {
+	width: 80px;
+	height: auto;
+	object-fit: contain;
+	margin-bottom: 1rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

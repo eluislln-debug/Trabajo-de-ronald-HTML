@@ -1,0 +1,141 @@
+/* CHELSEA - estilos con prefijo chelsea- */
+
+/* HERO */
+.hero-chelsea {
+	background: linear-gradient(135deg, #1e3a8a, #234ea1);
+	color: #ffffff;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #0b3d91;
+}
+
+.team-chelsea-logo {
+	width: 120px;
+}
+
+.hero-chelsea h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-chelsea {
+	font-style: italic;
+	color: #dbeafe;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-chelsea {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #ffffff, #0b3d91);
+	color: #1a1a1a;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #0b3d91;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-chelsea:hover {
+	background: #0b3d91;
+	color: white;
+	transform: translateX(-5px);
+}
+
+.volver-chelsea-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+	background: linear-gradient(to bottom, #f8fafc, #e6eefc);
+}
+
+/* FILAS */
+.info-chelsea-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-chelsea,
+.info-image-chelsea {
+	flex: 1;
+}
+
+.info-card-chelsea {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #0b3d91;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-chelsea img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulos-section-chelsea {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-chelsea {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-chelsea-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-chelsea-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #0b3d91;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-chelsea-card:hover {
+	background: #0b3d91;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-chelsea-card img {
+	width: 80px;
+	margin-bottom: 1rem;
+}
+
+.titulos-chelsea-grid h3 {
+	color: #0b3d91;
+}
+
+.trofeo-chelsea-card p {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.footer-chelsea {
+	background: #f1f5ff;
+	padding: 20px;
+	text-align: center;
+}

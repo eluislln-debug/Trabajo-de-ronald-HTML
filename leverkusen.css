@@ -1,0 +1,131 @@
+/* BAYER LEVERKUSEN */
+
+/* HERO */
+.hero-leverkusen {
+	background: linear-gradient(135deg, #e30613, #990000);
+	color: #ffffff;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #000000;
+}
+
+.team-leverkusen-logo {
+	width: 120px;
+}
+
+.hero-leverkusen h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-leverkusen {
+	font-style: italic;
+	color: #f5f5f5;
+}
+
+/* BOTÓN */
+.btn-volver-leverkusen {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #000000, #e30613);
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #000000;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-leverkusen:hover {
+	background: #000000;
+	color: #ffffff;
+	transform: translateX(-5px);
+}
+
+.volver-leverkusen-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO */
+body {
+	background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+}
+
+/* FILAS */
+.info-leverkusen-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-leverkusen,
+.info-image-leverkusen {
+	flex: 1;
+}
+
+.info-card-leverkusen {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #e30613;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-leverkusen img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+/* TITULOS */
+.titulos-section-leverkusen {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-leverkusen {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-leverkusen-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-leverkusen-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #e30613;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-leverkusen-card:hover {
+	background: #e30613;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-leverkusen-card img {
+	width: 80px;
+	margin-bottom: 1rem;
+}
+
+.trofeo-leverkusen-card p {
+	font-size: 28px;
+	font-weight: bold;
+}

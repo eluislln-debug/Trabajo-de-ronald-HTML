@@ -1,0 +1,141 @@
+/* MANCHESTER CITY - clases con prefijo city- */
+
+/* HERO */
+.hero-city {
+    background: linear-gradient(135deg, #7ec8e3, #1e90ff);
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+    border-bottom: 4px solid #1e90ff;
+}
+
+.team-city-logo {
+    width: 140px;
+}
+
+.hero-city h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-city {
+    font-style: italic;
+    color: #e6f7ff;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-city {
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #ffffff, #1e90ff);
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid #1e90ff;
+    transition: all 0.3s ease;
+}
+
+.btn-volver-city:hover {
+    background: #1e90ff;
+    color: white;
+    transform: translateX(-5px);
+}
+
+.volver-city-container {
+    width: 90%;
+    margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+    background: linear-gradient(to bottom, #e6f7ff, #f5faff);
+}
+
+/* FILAS DE INFORMACIÓN */
+.info-city-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.info-card-city,
+.info-image-city {
+    flex: 1;
+}
+
+/* TARJETAS */
+.info-card-city {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    border-left: 5px solid #1e90ff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    color: #000000;
+}
+
+.info-card-city h2,
+.info-card-city p {
+    color: #0a2340;
+}
+
+/* IMÁGENES */
+.info-image-city img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    display: block;
+}
+
+/* SECCIÓN TÍTULOS */
+.titulos-section-city {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.titulos-title-city {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #0a2340;
+    margin-bottom: 2rem;
+}
+
+/* GRID TROFEOS */
+.titulos-city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+/* TARJETAS TROFEOS */
+.trofeo-city-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border-bottom: 4px solid #1e90ff;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+    text-align: center;
+    transition: 0.3s;
+}
+
+.trofeo-city-card:hover {
+    transform: translateY(-8px);
+    background: #1e90ff;
+    color: white;
+}
+
+.trofeo-city-card img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+

@@ -1,0 +1,131 @@
+/* PSG */
+
+/* HERO */
+.hero-psg {
+	background: linear-gradient(135deg, #0b1c3d, #1c2e5e);
+	color: #ffffff;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #e30613;
+}
+
+.team-psg-logo {
+	width: 120px;
+}
+
+.hero-psg h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-psg {
+	font-style: italic;
+	color: #dbeafe;
+}
+
+/* BOTÓN */
+.btn-volver-psg {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #ffffff, #e30613);
+	color: #000000;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #e30613;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-psg:hover {
+	background: #e30613;
+	color: white;
+	transform: translateX(-5px);
+}
+
+.volver-psg-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO */
+body {
+	background: linear-gradient(to bottom, #f8fafc, #e6eefc);
+}
+
+/* FILAS */
+.info-psg-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-psg,
+.info-image-psg {
+	flex: 1;
+}
+
+.info-card-psg {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #e30613;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-psg img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+/* TITULOS */
+.titulos-section-psg {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-psg {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-psg-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-psg-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #e30613;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-psg-card:hover {
+	background: #0b1c3d;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-psg-card img {
+	width: 80px;
+	margin-bottom: 1rem;
+}
+
+.trofeo-psg-card p {
+	font-size: 28px;
+	font-weight: bold;
+}

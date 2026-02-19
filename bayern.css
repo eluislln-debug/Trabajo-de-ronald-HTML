@@ -1,0 +1,131 @@
+/* BAYERN MUNICH */
+
+/* HERO */
+.hero-bayern {
+	background: linear-gradient(135deg, #dc052d, #a0001c);
+	color: white;
+	text-align: center;
+	padding: 3rem 1rem;
+	border-bottom: 4px solid #8b0018;
+}
+
+.team-bayern-logo {
+	width: 120px;
+}
+
+.hero-bayern h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.8rem;
+	margin: 1rem 0 0.5rem 0;
+}
+
+.team-slogan-bayern {
+	font-style: italic;
+	color: #ffd6dc;
+}
+
+/* BOTÓN VOLVER */
+.btn-volver-bayern {
+	display: inline-block;
+	padding: 10px 22px;
+	background: linear-gradient(135deg, #ffffff, #dc052d);
+	color: #111111;
+	text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Oswald', sans-serif;
+	border: 2px solid #dc052d;
+	transition: all 0.3s ease;
+}
+
+.btn-volver-bayern:hover {
+	background: #dc052d;
+	color: white;
+	transform: translateX(-5px);
+}
+
+.volver-bayern-container {
+	width: 90%;
+	margin: 2.5rem auto 1rem auto;
+}
+
+/* FONDO GENERAL */
+body {
+	background: linear-gradient(to bottom, #fff5f7, #f4d6db);
+}
+
+/* FILAS */
+.info-bayern-row {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	margin: 3rem 0;
+}
+
+.reverse {
+	flex-direction: row-reverse;
+}
+
+.info-card-bayern,
+.info-image-bayern {
+	flex: 1;
+}
+
+.info-card-bayern {
+	background: white;
+	padding: 2rem;
+	border-radius: 12px;
+	border-left: 5px solid #dc052d;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.info-image-bayern img {
+	width: 100%;
+	max-width: 450px;
+	border-radius: 12px;
+}
+
+/* TÍTULOS */
+.titulos-section-bayern {
+	margin-top: 4rem;
+	text-align: center;
+}
+
+.titulos-title-bayern {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+
+.titulos-bayern-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	gap: 2rem;
+	width: 90%;
+	margin: auto;
+}
+
+.trofeo-bayern-card {
+	background: white;
+	padding: 1.5rem;
+	border-radius: 12px;
+	border-bottom: 4px solid #dc052d;
+	box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+	transition: 0.3s;
+	text-align: center;
+}
+
+.trofeo-bayern-card:hover {
+	background: #dc052d;
+	color: white;
+	transform: translateY(-8px);
+}
+
+.trofeo-bayern-card img {
+	width: 80px;
+	margin-bottom: 1rem;
+}
+
+.trofeo-bayern-card p {
+	font-size: 28px;
+	font-weight: bold;
+}
